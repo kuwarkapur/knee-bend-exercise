@@ -12,7 +12,7 @@ from streamlit_webrtc import (
 )
 RTC_CONFIGURATION = RTCConfiguration({"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
 st.title("Knee Bend Exercise Demo")
-video_file = open(r'C:\Users\Kuwar\Desktop\Recording 2023-03-27 160441.mp4', 'rb')
+video_file = open('https://youtu.be/xS50u5YDuFE', 'rb')
 video_bytes = video_file.read()
 
 st.video(video_bytes)
