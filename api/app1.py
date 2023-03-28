@@ -13,7 +13,7 @@ from streamlit_webrtc import (
 RTC_CONFIGURATION = RTCConfiguration({"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
 st.title("Knee Bend Exercise Demo")
 
-st.video('https://youtu.be/xS50u5YDuFE)
+st.video('https://youtu.be/xS50u5YDuFE')
 
 
 class KneeBendDetector(VideoTransformerBase):
